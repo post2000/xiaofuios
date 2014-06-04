@@ -1,0 +1,1 @@
+$(function(){$("#menu").mmenu({onClick:{blockUI:false,preventDefault:function(){return this.rel!="external"}}},{pageSelector:'div[data-role="page"]:first'})});$(document).on("pageshow",function(B,A){$("#menu").trigger("setPage",[$(B.target)]);$("#menu a").each(function(){})});
